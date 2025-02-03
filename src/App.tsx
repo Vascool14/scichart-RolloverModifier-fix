@@ -11,9 +11,9 @@ function App() {
     }, []);
 
     return (
-        <main style={{ width: '100%', height: '100%' }}>
-            <div id={ELEMENT_ID_1}></div>
-            <div id={ELEMENT_ID_2}></div>
+        <main style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
+            <div style={{ width: 'calc(100% - 40px)' }} id={ELEMENT_ID_1}></div>
+            <div style={{ width: 'calc(100% - 40px)' }} id={ELEMENT_ID_2}></div>
         </main>
     );
 }
