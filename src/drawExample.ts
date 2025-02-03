@@ -8,8 +8,8 @@ import { EAxisAlignment } from "scichart";
 import { NumberRange } from "scichart";
 
 // switch comments on these lines to see the past error within RolloverModifier and the Fix
-import { RolloverModifier } from "../scichart-src/RolloverModifier";
-// import { RolloverModifier } from "scichart"; 
+// import { RolloverModifier } from "../scichart-src/RolloverModifier";
+import { RolloverModifier } from "scichart"; 
 
 export async function drawExample1(divElementId: string) {
     const AXES_COUNT = 3;
