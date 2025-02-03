@@ -16,7 +16,7 @@
     background-color: var(--bg);
 }
 
-body {
+body, #root {
     margin: 0;
     display: fleax;
     place-items: center;
@@ -29,10 +29,4 @@ body {
         color: #213547;
         background-color: #ffffff;
     }
-}
-
-
-main div {
-    width: 100%;
-    
 }
